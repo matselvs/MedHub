@@ -1,0 +1,112 @@
+body {
+  background-image: url('/src/assets/img/medhub-greenBG.jpeg');
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Sora', sans-serif;
+}
+
+.container {
+  background-color: white;
+  border-radius: 5px;
+  border: none;
+  width: 476px;
+  height: 475px;
+  border-radius: 24px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  font-size: small;
+  font-weight: medium;
+  margin-left: 10px;
+}
+
+a{
+  font-size: small;
+  text-decoration: none;
+  color: #616161;
+  padding-left: 70px;
+}
+
+input[type="email"] {
+  margin-bottom: 20px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+
+}
+
+input[type="password"] {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+.password-input {
+  margin-bottom: 30px;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 12px;
+}
+
+input[type="checkbox"] {
+  margin-bottom: 20px;
+}
+
+.Loginbutton {
+  background-color:#046639;
+  color: white;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 300px;
+}
+
+p{
+  margin-top: 20%;
+  margin-left: -150px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+
+h2{
+  margin-left: -100px;
+  font-weight: 900;
+  margin-bottom: 42px;
+}
+
+.reveal-hidden{
+  width: 30px;
+  background-color: #ccc;
+  position: absolute;
+  right: 280px;
+  top: 335px;
+  height: 30px;
+}
+
+.email-input.filled,
+.password-input.filled {
+  border-color:#00C247;
+}
+
+input:invalid:focus {
+  border-color: red;
+}

@@ -1,26 +1,28 @@
 import { Suspense } from 'react'
-import { RouterProvider, createBrowserRouter } from 'react-router-dom'
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom'
+import LoginForm from '@/pages/login/index'
+import Home from '@/pages/home/home'
+import Spinner from '@/components/Spinner'
 
-// PAGES
-import Home from '@/pages/home'
-import Contact from '@/pages/contact'
-import { Spinner } from '@/components/ui'
-
-const router = createBrowserRouter([
-  {
-    path: '/',
-    element: <Home />
-  },
-  {
-    path: '/contact',
-    element: <Contact />
-  }
-])
-
-export default function Router() {
+export default function AppRouter() {
   return (
     <Suspense fallback={<Spinner />}>
-      <RouterProvider router={router} />
+      <Router>
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <LoginForm
+                onLogin={function (email: string, password: string): void {
+                  throw new Error('Function not implemented.')
+                }}
+              />
+            }
+          />
+          <Route path="/home" element={<Home />} />
+          {}
+        </Routes>
+      </Router>
     </Suspense>
   )
 }
