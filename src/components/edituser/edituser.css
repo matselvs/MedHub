@@ -1,0 +1,102 @@
+.editUserContainer {
+  width: 260px;
+  height: 300px;
+  margin-left: 270px;
+  margin-top: 60px;
+
+}
+
+.editUserTitle{
+  margin-left: 30px;
+}
+
+.editUserButton {
+  color: #333;
+  border: none;
+  border-radius: 12px;
+  padding: 10px 20px;
+  text-align: left; /* Alinhe o texto à esquerda */
+  text-decoration: none;
+  display: flex; /* Use display flex para alinhar o ">" e o texto horizontalmente */
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  width: 220px;
+  margin-left: 22px;
+  background-color: #f0f0f0;
+  margin-bottom: 15px;
+}
+
+.activeButton {
+  background-color: #046639;
+  color: #fff;
+}
+
+.chevron {
+  margin-left: auto; /* Isso empurra o chevron para a direita */
+}
+
+.userInfoContainer {
+  width: 500px;
+  margin-left: 530px; /* Remova a margem esquerda */
+  margin-top: -220px; /* Reduza a margem superior para 10px ou o valor desejado */
+}
+
+.userInfoTitle {
+  margin-left: 30px;
+  margin-bottom: 10px; /* Adicione margem inferior para separar o título das informações */
+}
+
+.userInfoTable {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.userInfoTable td {
+  background: #fff; /* Define o fundo branco */
+  padding: 5px;
+  border: 1px solid #ccc;
+  height: 50px;
+}
+
+.userInfoTable button {
+  width: 25px;
+  height: 25px;
+  background-color: #fff;
+  color: #007bff;
+  border: none;
+  border-radius: 10%;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+}
+.deleteButton {
+margin-left: 10px;
+}
+
+/* Estilo para o ícone dentro do botão */
+.deleteButton i {
+  color: #ff0000; /* Cor vermelha */
+}
+
+
+.userInfoTable tr td {
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+.userInfoTable button {
+  border: none; /* Remova as bordas do botão */
+}
+
+.addnewprofile{
+  background-color:#00C247;
+  color: #f0f0f0;
+  padding: 12px;
+  padding-bottom: 25px;
+  height: 35px;
+  width: 160px;
+  border: none;
+  border-radius: 10px;
+  margin-top: 30px;
+}

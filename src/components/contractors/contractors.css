@@ -1,0 +1,84 @@
+#contractors-container {
+  height: 140px;
+  width: 570px;
+  position: absolute;
+  margin-left: 680px;
+  margin-top: 280px;
+  border: none;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#contractors-container h5{
+  margin-top: 12px;
+  margin-left: 25px;
+  margin-bottom: 10px;
+}
+
+.contractors-container2{
+  display: flex;
+  height: 80px;
+  width: 560px;
+}
+
+.inner-contractors-container1,
+.inner-contractors-container2,
+.inner-contractors-container3 {
+  background-color: #F5F5F5;
+  width: 170px;
+  border-radius: 12px;
+  margin-left: 20px;
+  display: flex;
+}
+
+.contractors-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 10px;
+}
+
+.contractors-text{
+  font-size: smaller;
+  color: #757575;
+}
+
+.contractors-number{
+  font-size: large;
+  font-weight: 600;
+}
+
+.contractors-color-ball,
+.contractors-color-ball-2,
+.contractors-color-ball-3 {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contractors-color-ball img,
+.contractors-color-ball-2 img,
+.contractors-color-ball-3 img {
+  width: 30px;
+  height: 30px;
+  object-fit: cover;
+}
+
+
+.contractors-color-ball{
+  background-color: #FFB801;
+}
+
+.contractors-color-ball-2{
+  background-color:#00C247;
+}
+
+.contractors-color-ball-3{
+  background-color: #FF3333;
+}

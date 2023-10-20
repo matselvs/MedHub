@@ -1,5 +1,11 @@
 body{
-  height: auto;
+  height: 140vh;
   width: auto;
   overflow: auto;
+  overflow-x: hidden;
+  font-family: 'Sora', sans-serif;
+}
+
+button:hover{
+  cursor: pointer;
 }

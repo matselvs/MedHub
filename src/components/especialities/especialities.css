@@ -1,0 +1,197 @@
+.especialitiesTable{
+  margin-top: 70px;
+  margin-left: 260px;
+  width: 990px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+h4{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+table{
+  height: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 970px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #046639;
+  color: white;
+  font-size: small;
+  height: 30px;
+}
+
+tr{
+  font-size: small;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th:first-child {
+  border-top-left-radius: 8px;
+}
+
+th:last-child {
+  border-top-right-radius: 8px;
+}
+
+td {
+  text-align: center;
+}
+
+.tablepages{
+  margin-top: 10px;
+  margin-left: 90%;
+}
+
+
+.addespecialities{
+  margin-bottom: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.addespecialities button{
+  background-color: #00C247;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  width: 160px;
+}
+
+.addespecialities button:HOVER{
+  cursor: pointer;
+}
+
+.especialitiesContainer{
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-bottom: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+input {
+  margin-right: 10px;
+  border: #E0E0E0 solid 1px ;
+  border-radius: 8px;
+  padding: 8px;
+  color: #757575;
+  font-size: small;
+}
+
+.especialitiesh2{
+  position: relative;
+  left: 370px;
+  top: 40px;
+}
+
+.buttonContainer{
+  position: absolute;
+  color: #757575;
+  width: auto;
+  height: 60px;
+  margin-left: 260px;
+
+}
+
+.buttonContainer button{
+  margin-top: 4.8%;
+  margin-right: 10px;
+  border: none;
+  color: black;
+  background-color:#F5F5F5;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+  padding: 12px;
+  width: auto;
+}
+
+.buttonContainer button.selected {
+  color: black;
+  background-color: #fff;
+}
+
+.buttonContainer button:hover{
+  cursor: pointer;
+}
+
+.userCount {
+  display: inline-block;
+  background-color: #B4E08E;
+  color:black;
+  border-radius: 50%;
+  padding: 2px 6px;
+  margin-left: 5px;
+}
+
+.buttonContainer button.selected .userCount {
+  background-color:#046639;
+  color: #fff;
+}
+
+.action-button {
+  height: 25px;
+  width: 25px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.5);
+  cursor: pointer;
+}
+
+.action-button:hover {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.action-button i {
+  font-size: 10px;
+}
+
+.eye-button {
+  background-color: #fff;
+  color: #555555;
+}
+
+.pen-button {
+  background-color:#fff ;
+  color: #0000ff;
+}
+
+.trash-button {
+  background-color: #fff;
+  color:#ff0000 ;
+}
+
+.especpagi {
+  margin-left: 900px;
+  margin-top: 15px;
+}
+
+.especpagi button{
+  background-color: #046639;
+  color: #fff;
+  border: none;
+  border-radius: 2px;
+  height: 20px;
+  width: 20px;
+  margin-right: 2px;
+}

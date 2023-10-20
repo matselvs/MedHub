@@ -1,0 +1,84 @@
+.userTable{
+  margin-top: 380px;
+  margin-left: 260px;
+  width: 990px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+h4{
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-bottom: 15px;
+}
+
+table{
+  height: auto;
+  margin-top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+  width: 970px;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #046639;
+  color: white;
+  font-size: small;
+  height: 30px;
+}
+
+tr{
+  font-size: small;
+  height: 30px;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+th:first-child {
+  border-top-left-radius: 8px;
+}
+
+th:last-child {
+  border-top-right-radius: 8px;
+}
+
+td {
+  text-align: center;
+}
+
+.nextusers{
+  margin-top: 10px;
+  margin-left: 50%;
+  color: #046639;
+  border: none;
+  background-color: transparent;
+}
+
+.nextusers:hover{
+  cursor: pointer;
+}
+
+.previoususers{
+  margin-top: 10px;
+  margin-left: 50%;
+  color: #046639;
+  border: none;
+  background-color: transparent;
+}
+
+.previoususers:hover{
+  cursor: pointer;
+}
+
+.verTodosLink{
+  color: #004CE8;
+  margin-left: 550px;
+  font-weight: 400;
+}
+

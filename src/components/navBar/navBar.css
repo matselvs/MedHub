@@ -31,4 +31,10 @@
 .sidebar button:hover{
   background-color: #B4E08E;
   color: #046639;
+  cursor: pointer;
+}
+
+.sidebar button.active {
+  background-color: #B4E08E;
+  color: #046639;
 }
