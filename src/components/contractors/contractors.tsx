@@ -43,7 +43,7 @@ const ContractorsContainer: React.FC = () => {
       <div className="contractors-container2">
         <div className="inner-contractors-container1">
           <div className="contractors-color-ball">
-            <img src="/src/assets/img/people-search-one.png" alt="" />
+            <img src="/static/images/people-search-one.png" alt="" />
           </div>
           <div className="contractors-info">
             <div className="contractors-text">Total</div>
@@ -52,7 +52,7 @@ const ContractorsContainer: React.FC = () => {
         </div>
         <div className="inner-contractors-container2">
           <div className="contractors-color-ball-2">
-            <img src="/src/assets/img/people-search-one.png" alt="" />
+            <img src="/static/images/people-search-one.png" alt="" />
           </div>
           <div className="contractors-info">
             <div className="contractors-text">Disponiveis</div>
@@ -63,7 +63,7 @@ const ContractorsContainer: React.FC = () => {
         </div>
         <div className="inner-contractors-container3">
           <div className="contractors-color-ball-3">
-            <img src="/src/assets/img/people-search-one.png" alt="" />
+            <img src="/static/images/people-search-one.png" alt="" />
           </div>
           <div className="contractors-info">
             <div className="contractors-text">Indisponiveis</div>

@@ -29,7 +29,7 @@ const welcomeBox: React.FC = () => {
       </div>
       <div className="inner-container"></div>
       <div className="image-girl">
-        <img src="/src/assets/img/Ã‘Ã«Ã®Ã©_1.png" alt="" />
+        <img src="/static/images/Ã‘Ã«Ã®Ã©_1.png" alt="" />
       </div>
     </>
   )

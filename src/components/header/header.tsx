@@ -45,7 +45,7 @@ const Header: React.FC<User> = ({ name, email }) => {
     <div className="header">
       <div className="user-info">
         <div className="userImg">
-          <img src="/src/assets/img/User.png" alt="" />
+          <img src="/static/images/User.png" alt="" />
         </div>
         <div className="userInfoText">
           <span>

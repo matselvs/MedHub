@@ -1,6 +1,6 @@
 import { Link, useLocation } from 'react-router-dom'
 import './navBar.css'
-import myImage from '/src/assets/img/Frame.png'
+import myImage from '/static/images/Frame.png'
 
 interface SidebarProps {
   imgSrc: string

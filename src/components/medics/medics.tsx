@@ -42,7 +42,7 @@ const MedicsContainer: React.FC = () => {
       <div className="medics-container2">
         <div className="inner-medics-container1">
           <div className="color-ball">
-            <img src="/src/assets/img/every-user.png" alt="" />
+            <img src="/static/images/every-user.png" alt="" />
           </div>
           <div className="medics-info">
             <div className="medics-text">Total</div>
@@ -51,7 +51,7 @@ const MedicsContainer: React.FC = () => {
         </div>
         <div className="inner-medics-container2">
           <div className="color-ball-2">
-            <img src="/src/assets/img/every-user.png" alt="" />
+            <img src="/static/images/every-user.png" alt="" />
           </div>
           <div className="medics-info">
             <div className="medics-text">Disponiveis</div>
@@ -60,7 +60,7 @@ const MedicsContainer: React.FC = () => {
         </div>
         <div className="inner-medics-container3">
           <div className="color-ball-3">
-            <img src="/src/assets/img/every-user.png" alt="" />
+            <img src="/static/images/every-user.png" alt="" />
           </div>
           <div className="medics-info">
             <div className="medics-text">Indisponiveis</div>

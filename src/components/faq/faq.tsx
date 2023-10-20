@@ -130,7 +130,7 @@ const FaqTable: React.FC = () => {
             />
             <button className="filterButton">
               <img
-                src="/src/assets/img/filter.png"
+                src="/static/images/filter.png"
                 alt=""
                 style={{
                   height: '20px',

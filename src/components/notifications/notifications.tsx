@@ -168,7 +168,7 @@ const NotificationTable: React.FC = () => {
               }}
             >
               <img
-                src="/src/assets/img/filter.png"
+                src="/static/images/filter.png"
                 alt=""
                 style={{ height: '15px', width: '15px' }}
               />
